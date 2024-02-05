@@ -7,7 +7,6 @@ import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.*;
 
 public class HomePage {
-
   private SelenideElement devicesLink = $x("//button[text()='Urządzenia']");
   private SelenideElement smartWatchesLink = $x("(//span[text()='Bez abonamentu'])[2]");
   private SelenideElement basketIconProductQuantity = $x("//a[@data-ma='menu-basket']//div");

@@ -7,7 +7,6 @@ import java.time.Duration;
 import org.openqa.selenium.By;
 
 public class ProductPage {
-
    private SelenideElement buttonAddToCart = $x("(//div[text()='Dodaj do koszyka'])[2]");
    private SelenideElement startPrice = $x("(//div[@class='dt_price_change']//div)[3]");
    private SelenideElement monthlyPaymentAmount =$(By.className("price-chips-wrapper"));
