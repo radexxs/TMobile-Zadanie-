@@ -11,11 +11,9 @@ public class CartPage {
 
 
   public String getStartPriceValue(){
-
     return startPrice.getText();
   }
   public String getMonthlyPaymentAmountValue(){
-
     return monthlyPaymentAmount.getText();
   }
 }

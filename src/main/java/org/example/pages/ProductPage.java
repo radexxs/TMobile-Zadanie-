@@ -9,7 +9,7 @@ import org.openqa.selenium.By;
 public class ProductPage {
    private SelenideElement buttonAddToCart = $x("(//div[text()='Dodaj do koszyka'])[2]");
    private SelenideElement startPrice = $x("(//div[@class='dt_price_change']//div)[3]");
-   private SelenideElement monthlyPaymentAmount =$(By.className("price-chips-wrapper"));
+   private SelenideElement monthlyPaymentAmount =$x("(.//div[@class='dt_price_change'])[4]");
 
 
    public void addToCart(){
@@ -21,7 +21,6 @@ public class ProductPage {
    }
 
    public  String getStartPriceValue() {
-
       return startPrice.getText().replace(" zł", "");
    }
 }

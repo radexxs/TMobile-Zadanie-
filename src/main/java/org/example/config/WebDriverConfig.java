@@ -11,7 +11,6 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class WebDriverConfig {
 
-
   private static WebDriver driver;
   public static void configure() {
     Configuration.browser = "chrome";
